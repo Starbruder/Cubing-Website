@@ -1,0 +1,533 @@
+@media (prefers-color-scheme: light) {
+  html,
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+  }
+}
+
+* {
+  margin: 0em;
+  scroll-behavior: smooth;
+}
+
+.top-bar-fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 5em;
+  display: block;
+  background-color: #000;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.im_header {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  border-radius: 10%;
+  float: left;
+  margin-left: 0.5em;
+  margin-top: 0.6em;
+  margin-right: 0.5em;
+}
+
+.logo_box {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_box h1 {
+  color: #fff;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.logo_box h1 span {
+  font-weight: 900;
+  color: rgb(0, 255, 128);
+}
+
+.nav {
+  float: right;
+  height: 100%;
+  background-color: #000;
+}
+
+.nav a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0em 1em;
+}
+
+.nav a:last-child {
+  padding-right: 0em;
+}
+
+.nav a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: #fff;
+  font-size: 1em;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 5em;
+}
+
+.rund {
+  border-radius: 5%;
+  box-shadow: 4px 4px 5px #000;
+  border-color: rgb(0, 255, 128);
+  border-width: 3.5px;
+  border-style: solid;
+}
+
+.startschrift {
+  font-size: 3em;
+  text-shadow: 2px 2px 5px #000;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 255, 128);
+}
+
+.startschrift span {
+  margin-left: 11px;
+  margin-right: 10px;
+}
+
+.linkfarbe {
+  color: #000;
+  text-shadow: 1px 1px 10px #fff;
+}
+
+.weiterstartseitebox {
+  margin: 5em;
+  background-color: rgb(30, 30, 30);
+  border: rgb(0, 255, 128);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.weiterstartseite {
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+.offeneseitemenü {
+  color: rgb(0, 255, 128);
+}
+
+.vorstellungsbox {
+  min-width: 650px;
+  padding: 7em;
+  font-size: 2em;
+  border: 1px solid rgb(0, 255, 128);
+  margin: 5em;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 5px 5px 10px #000;
+}
+
+.vorstellungstext {
+  text-shadow: 9px 9px 10px #000;
+  color: #fff;
+  font-size: 1em;
+}
+
+.vorstellungsliste {
+  text-shadow: 9px 9px 10px #000;
+  color: #fff;
+  font-size: 0.9em;
+  float: right;
+  margin-top: -4em;
+  margin-right: 1em;
+}
+
+footer {
+  background-color: #000;
+  height: 6.5em;
+  box-shadow: -1px -1px 10px #000;
+}
+
+.footerüberschrift {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0.1em;
+}
+
+.footerbilderbox {
+  float: left;
+  margin-left: 15em;
+}
+
+.footerkontakt {
+  color: #fff;
+  float: right;
+  margin-right: 15em;
+}
+
+.footeremail {
+  color: #fff;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+.footerbox {
+  min-width: 50em;
+}
+
+.seitenanfang {
+  margin: 1em;
+  background-color: rgb(30, 30, 30);
+  text-shadow: 4px 4px 1px rgb(70, 70, 70);
+  font-size: 1.2em;
+  border-color: rgb(0, 255, 128);
+  border-style: solid;
+  border-width: 2px;
+  max-width: 11em;
+  display: flex;
+  justify-content: center;
+  box-shadow: 6px 6px 5px rgb(30, 30, 30);
+}
+
+.seitenanfangtext {
+  color: #fff;
+}
+
+.abstand {
+  margin-top: 50em;
+}
+
+.vorstellungsbilderbox {
+  display: flex;
+  justify-content: center;
+}
+
+.vorstellungsbild {
+  box-shadow: 5px 5px 10px #000;
+}
+
+.figcaption-vorstellung {
+  font-size: 1.1em;
+}
+
+.bildfigcaption {
+  font-size: 2em;
+  text-shadow: 4px 4px 5px #000;
+}
+
+.zurnächstenseite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-shadow: 5px 5px 10px #000;
+  color: #fff;
+}
+
+.nächsteseitebox {
+  font-size: 1.5em;
+  min-width: 20em;
+  position: relative;
+  padding: 1em;
+  border: 1px solid rgb(0, 255, 128);
+  margin: 12em;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 5px 5px 10px #000;
+}
+
+.cubehintergrund-Anfang_Hobby {
+  background-image: url("Bilder/20201218_091249.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.überschrift-Anfang_Hobby {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  padding: 10px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.textbox-Anfang_Hobby {
+  padding: 1.1em;
+}
+
+.text-Anfang_Hobby {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  min-width: 30em;
+}
+
+.anfangsbox-Anfang_Hobby {
+  background-color: rgba(8, 8, 8, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.endtextbox {
+  margin: 2em;
+}
+
+.endseiteüberschrift {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.endseitetext {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.endbildbox {
+  display: flex;
+  justify-content: center;
+}
+
+.endbild {
+  border-color: rgb(0, 255, 128);
+  border-width: 4px;
+  border-radius: 1%;
+  border-style: solid;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.linkabstand {
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.textbox-Entwicklung {
+  margin: 10em;
+  padding: 1em;
+  background-color: rgb(30, 30, 30);
+  border-color: rgb(0, 255, 128);
+  border-style: solid;
+  border-width: 1px;
+  min-width: 25em;
+}
+
+.überschrift-Entwicklung {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.text-Entwicklung {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  margin-top: 1em;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.cubestackbox-entwicklung {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(41, 41, 41);
+}
+
+.cubestack-entwicklung {
+  width: 30em;
+  height: auto;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.cubestacktextbox-entwicklung {
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+.cubestacktext {
+  font-size: 2em;
+  color: #fff;
+}
+
+.cubestacküberschrift-entwicklung {
+  font-size: 2.5em;
+  color: rgb(0, 255, 128);
+}
+
+.WCAbox-Wettbewerbe {
+  background-color: rgba(8, 8, 8, 0.6);
+  margin-top: 7em;
+  padding: 2.5em;
+}
+
+.WCAüberschrift-Wettbwerbe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6em;
+  font-size: 2.1em;
+  text-shadow: 3px 3px 5px #000;
+  color: #fff;
+}
+
+.WCA-textbox-Wettbewerbe {
+  font-size: 1.6em;
+}
+
+.WCA-text-Wettbewerbe {
+  display: flex;
+  justify-content: center;
+  padding: 0.1em;
+  text-shadow: 3px 3px 5px #000;
+  color: #fff;
+  min-width: 22em;
+}
+
+.WCAhintergrund-Wettbewerbe {
+  background-image: url("Bilder/1200px-World_Cube_Association.svg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 30em;
+}
+
+.Disziplinenbox-Wettbewerbe {
+  margin: 10em;
+}
+
+.Disziplinenüberschrift-Wettbewerbe {
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #000;
+  color: rgb(0, 255, 128);
+}
+
+.disziplinenlistebox-Wettbewerbe {
+  margin-top: -2em;
+  display: flex;
+  justify-content: center;
+}
+
+.disziplinenliste-Wettbewerbe {
+  font-size: 1.6em;
+}
+
+.Bilderbox-Wettbewerb {
+  display: flex;
+  justify-content: center;
+}
+
+.Bild-Wettbewerb {
+  height: auto;
+  margin: 1em;
+  min-width: 65em;
+  max-width: 80em;
+  box-shadow: 3px 3px 5px #000;
+}
+
+.figcaption-Wettbewerb {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.meinwcaprofiltextbox {
+  display: flex;
+  justify-content: center;
+  margin: 10em;
+  padding: 3em;
+  border-color: rgb(0, 255, 128);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 3px 3px 5px #000;
+  min-width: 34em;
+}
+
+.meinwcaprofiltext {
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.kilominxbox-Non-WCA {
+  margin: 10em;
+  display: flex;
+  justify-content: right;
+}
+
+.kilominxbild-Non-WCA {
+  box-shadow: 3px 3px 5px #000;
+  height: auto;
+  max-width: 50em;
+  min-width: 20em;
+}
+
+.kilominxtextbox {
+  margin: 3em;
+}
+
+.kilominxüberschrift {
+  font-size: 2em;
+  color: rgb(0, 255, 128);
+  margin-bottom: 0.6em;
+}
+
+.kilominxtext {
+  font-size: 1.6em;
+  margin: 0.2em;
+}
+
+.cubesammlungbox {
+  margin: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.cubesammlungbild {
+  box-shadow: 3px 3px 5px #000;
+  height: auto;
+  width: 90em;
+  box-shadow: 3px 3px 5px #000;
+}
+
+.figcaptioncubecollection {
+  margin: 0.1em;
+  font-size: 2em;
+}
